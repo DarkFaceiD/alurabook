@@ -66,6 +66,11 @@
     display: none;
 }
 
+.container__botao:checked ~ .lista-menu {
+    display: block;
+    z-index: 10;
+}
+
 .container__titulo {
     display: none;
 }
